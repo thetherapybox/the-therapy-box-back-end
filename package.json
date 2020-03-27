@@ -1,5 +1,5 @@
 {
-  "name": "express",
+  "name": "the_therapy_box",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,6 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "node": "^13.11.0"
+    "express": "^4.17.1",
+    "node": "^13.11.0",
+    "strapi": "^3.0.0-beta.19.3"
   }
 }
