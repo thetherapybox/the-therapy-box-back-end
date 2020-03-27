@@ -1,0 +1,19 @@
+{
+  "defaultConnection": "default",
+  "connections": {
+    "default": {
+      "connector": "mongoose",
+      "settings": {
+        "database": "heroku_5sj1zlks",
+        "host": "ds243059.mlab.com",
+        "srv": false,
+        "port": "43059",
+        "username": "heroku_5sj1zlks",
+        "password": "1fabahf3ahfhhi33i1aogt2uin"
+      },
+      "options": {
+        "authenticationDatabase": "heroku_5sj1zlks"
+      }
+    }
+  }
+}
