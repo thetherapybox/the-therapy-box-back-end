@@ -6,9 +6,15 @@ a strapi template for working on repl.it
 
 ## Getting started
 
-type and run the command
+create a cloud MongoDB account
+
+create a .env file using the example.env
+
+type and run the commands
 
 ```yarn install```
+
+```yarn build```
 
 Click the green run button at the top of the repl IDE
 
