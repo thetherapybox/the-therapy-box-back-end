@@ -1,38 +1,25 @@
-[![Run on Repl.it](https://repl.it/badge/github/HannahNZ/the-therapy-box)](https://repl.it/github/HannahNZ/the-therapy-box)
+[![Run on Repl.it](https://repl.it/badge/github/sojohnnysaid/strapi-template)](https://repl.it/github/sojohnnysaid/strapi-template)
 
-# Getting Started
+# Strapi application template
 
-you will have to setup a mongodb cloud account first
+a strapi template for working on repl.it
 
-click the badge to create a repl project
+## Getting started
 
-```npx strapi new project```
+create a cloud MongoDB account
 
-choose Custom (manual settings)
-choose mongo
+create a .env file using the example.env
 
-use the following settings:
-```
-Choose your default database client mongo
-? Database name: <your username>
-? Host: <your uniquestring.mongourl.com >
-? +srv connection: false
-? Port (It will be ignored if you enable +srv): 43059
-? Username: <your username>
-? Password: <your password>
-? Authentication database (Maybe "admin" or blank): <your username>
-? Enable SSL connection: No
-```
+type and run the commands
 
-cd into your project folder
-```cd project```
+```yarn install```
 
-use the develop command
-```yarn develop```
+```yarn build```
 
+Click the green run button at the top of the repl IDE
 
-open repl's preview window in a new tab
+When the preview window appears click open in new tab on the top right-hand corner
 
-add "/admin" to the url and refresh
+add "/admin" to the url in the new tab to setup your admin account
 
-create an admin and get started =)
+Have fun!
