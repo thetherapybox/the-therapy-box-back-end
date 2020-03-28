@@ -1,17 +1,35 @@
 {
-  "name": "the_therapy_box",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "the-therapy-box",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "devDependencies": {},
   "dependencies": {
-    "express": "^4.17.1",
-    "node": "^13.11.0",
-    "strapi": "^3.0.0-beta.19.3"
-  }
+    "strapi": "3.0.0-beta.19.3",
+    "strapi-admin": "3.0.0-beta.19.3",
+    "strapi-connector-mongoose": "3.0.0-beta.19.3",
+    "strapi-plugin-content-manager": "3.0.0-beta.19.3",
+    "strapi-plugin-content-type-builder": "3.0.0-beta.19.3",
+    "strapi-plugin-email": "3.0.0-beta.19.3",
+    "strapi-plugin-upload": "3.0.0-beta.19.3",
+    "strapi-plugin-users-permissions": "3.0.0-beta.19.3",
+    "strapi-utils": "3.0.0-beta.19.3"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "452c3a09-b94d-4414-bb82-f4cf2c25c50a"
+  },
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
 }
