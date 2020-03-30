@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "connection": "default",
+  "collectionName": "orderproducts",
+  "info": {
+    "name": "OrderProduct"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "quantity": {
+      "type": "integer"
+    },
+    "product": {
+      "model": "product",
+      "via": "orderproducts"
+    },
+    "order": {
+      "model": "order",
+      "via": "orderproducts"
+    }
+  }
+}

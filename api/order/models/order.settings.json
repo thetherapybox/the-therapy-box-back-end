@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "connection": "default",
+  "collectionName": "orders",
+  "info": {
+    "name": "order"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "customer": {
+      "via": "orders",
+      "model": "customer"
+    },
+    "created": {
+      "type": "datetime"
+    },
+    "shipped": {
+      "type": "datetime"
+    },
+    "rental_start": {
+      "type": "date"
+    },
+    "rental_end": {
+      "type": "date"
+    },
+    "orderproducts": {
+      "via": "order",
+      "collection": "orderproduct"
+    }
+  }
+}
