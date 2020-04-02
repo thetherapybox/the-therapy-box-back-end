@@ -1,4 +1,4 @@
-[![Run on Repl.it](https://repl.it/badge/github/sojohnnysaid/strapi-template)](https://repl.it/github/sojohnnysaid/strapi-template)
+[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/HannahNZ/the-therapy-box) 
 
 # Strapi application template
 
@@ -14,12 +14,14 @@ type and run the commands
 
 ```yarn install```
 
+```cat .env | while read in; do gp env "$in"; done```
+
+```eval $(gp env -e)```
+
 ```yarn build```
 
-Click the green run button at the top of the repl IDE
-
-When the preview window appears click open in new tab on the top right-hand corner
-
+```yarn develop```
+ 
 add "/admin" to the url in the new tab to setup your admin account
 
 Have fun!
