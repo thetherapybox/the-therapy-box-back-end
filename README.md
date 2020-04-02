@@ -1,4 +1,4 @@
-[![Run on Repl.it](https://repl.it/badge/github/sojohnnysaid/strapi-template)](https://repl.it/github/sojohnnysaid/strapi-template)
+[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/HannahNZ/the-therapy-box) 
 
 # Strapi application template
 
