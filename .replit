@@ -1,2 +1,0 @@
-dlanguage = "nodejs"
-  run = "yarn develop"
