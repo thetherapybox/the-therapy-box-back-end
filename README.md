@@ -6,22 +6,24 @@ a strapi template for working on repl.it
 
 ## Getting started
 
-create a cloud MongoDB account
+1. create a cloud MongoDB account
 
-create a .env file using the example.env
+2. create a .env file using the example.env
 
-type and run the commands
+3. type and run the commands
 
-```yarn install```
+4. type ```yarn install```
 
-```cat .env | while read in; do gp env "$in"; done```
+5. type ```cat .env | while read in; do gp env "$in"; done && eval $(gp env -e)```
 
-```eval $(gp env -e)```
+6. rename the file example.gitpod.yml -> .gitpod.yml
 
-```yarn build```
+7. click File -> stop workspace
 
-```yarn develop```
- 
-add "/admin" to the url in the new tab to setup your admin account
+8. click workspaces in the popup screen
 
-Have fun!
+9. wait a few seconds and click the start button
+
+10. in the terminal hold CMD (or CTRL on windows) and click on http://localhost:1337/admin
+
+have fun!
