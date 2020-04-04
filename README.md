@@ -8,7 +8,7 @@ a strapi template for working on repl.it
 
 1. create a cloud MongoDB account
 
-2. create a .env file using the example.env
+2. create a .env file by copying the example.env (do not remove example file)
 
 3. type and run the commands
 
@@ -16,7 +16,7 @@ a strapi template for working on repl.it
 
 5. type ```cat .env | while read in; do gp env "$in"; done && eval $(gp env -e)```
 
-6. rename the file example.gitpod.yml -> .gitpod.yml
+6. create a .gitpod.yml file by copying the example.gitpod.yml (do not remove example file)
 
 7. click File -> stop workspace
 
