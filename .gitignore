@@ -115,5 +115,5 @@ build
 
 #############################
 
-extensions/users-permissions/config/jwt.json
+extensions/users-permissions/config
 .env
