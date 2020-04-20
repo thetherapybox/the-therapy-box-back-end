@@ -82,8 +82,7 @@ ssl
 nbproject
 public/uploads/*
 !public/uploads/.gitkeep
-**/jwt.json
-.env
+
 
 ############################
 # Node.js
@@ -112,3 +111,7 @@ coverage
 exports
 .cache
 build
+
+
+#############################
+.env
