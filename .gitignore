@@ -82,7 +82,8 @@ ssl
 nbproject
 public/uploads/*
 !public/uploads/.gitkeep
-extensions/users-permissions/config/jwt.json
+**/jwt.json
+.env
 
 ############################
 # Node.js
