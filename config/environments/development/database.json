@@ -4,15 +4,15 @@
     "default": {
       "connector": "mongoose",
       "settings": {
-        "database": "${process.env.DATABASE_NAME}",
-        "host": "${process.env.DATABASE_HOST}",
+        "database": "john-dev",
+        "host": "cluster0-kvbsu.mongodb.net",
         "srv": "true",
-        "port": "${process.env.DATABASE_PORT}",
-        "username": "${process.env.DATABASE_USERNAME}",
-        "password": "${process.env.DATABASE_PASSWORD}"
+        "port": 27017,
+        "username": "admin",
+        "password": "RnKzZFXlxRwUsLHj"
       },
       "options": {
-        "authenticationDatabase": "${process.env.DATABASE_USERNAME}",
+        "authenticationDatabase": "admin",
         "ssl": true
       }
     }
