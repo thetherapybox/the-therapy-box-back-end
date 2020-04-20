@@ -82,7 +82,8 @@ ssl
 nbproject
 public/uploads/*
 !public/uploads/.gitkeep
-.gitpod.yml
+**/jwt.json
+.env
 
 ############################
 # Node.js
@@ -95,7 +96,7 @@ logs
 results
 node_modules
 .node_history
-.env
+
 
 ############################
 # Tests
