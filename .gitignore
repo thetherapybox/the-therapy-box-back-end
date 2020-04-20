@@ -114,6 +114,4 @@ build
 
 
 #############################
-
-extensions/users-permissions/config
 .env
