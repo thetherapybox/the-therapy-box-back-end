@@ -1,3 +1,10 @@
-# Strapi application
+# Therapy box backend
 
-A quick description of your strapi application
+use the example.env file to create your .env
+
+## commands
+```
+yarn install
+yarn build
+yarn develop
+```
