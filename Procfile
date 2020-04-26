@@ -1,2 +1,1 @@
-web: npm start
-web: yarn develop
+web: eval '$START_COMMAND'
