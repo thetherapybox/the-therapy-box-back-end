@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_page_template_columns",
+  "info": {
+    "name": "column",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "body": {
+      "type": "richtext"
+    }
+  }
+}
