@@ -1,0 +1,46 @@
+{
+  "name": "strapi-plugin-email",
+  "version": "3.0.0-beta.20",
+  "description": "This is the description of the plugin.",
+  "strapi": {
+    "name": "Email",
+    "icon": "paper-plane",
+    "description": "email.plugin.description",
+    "required": true
+  },
+  "scripts": {
+    "test": "echo \"no tests yet\""
+  },
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "strapi-provider-email-sendmail": "3.0.0-beta.20",
+    "strapi-utils": "3.0.0-beta.20"
+  },
+  "devDependencies": {
+    "react-copy-to-clipboard": "5.0.1",
+    "rimraf": "3.0.0",
+    "strapi-helper-plugin": "3.0.0-beta.20"
+  },
+  "author": {
+    "name": "Strapi team",
+    "email": "hi@strapi.io",
+    "url": "http://strapi.io"
+  },
+  "maintainers": [
+    {
+      "name": "Strapi team",
+      "email": "hi@strapi.io",
+      "url": "http://strapi.io"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/strapi/strapi.git"
+  },
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT",
+  "gitHead": "9d8944ebfed5cf2e290c26dd4a273f06d43a8fd3"
+}
